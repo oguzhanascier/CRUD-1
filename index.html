@@ -18,17 +18,19 @@
 
         <div class="create"><i class="fa-solid fa-plus"></i></div>
         
-      <!-- <div class="box">
+      <div class="box">
            <div class="text">
                 <div class="delete"><i class="fa-solid fa-trash"></i></div>
-                <div class="username">süleyman çakır</div>
-                <div class="name"></div>
-                <div class="email">suleymancakir@gmail.com</div>
-                <div class="address">lasvegas</div>
-                <div class="phone">0503503053</div>
-                <div class="company">Casino</div>
+                <div class="edit"><i class="fa-solid fa-pen"></i></div>
+                <div class="username">Username: <span id="username-value">oğuzhan </span> </div>
+                <div class="name">Name: <span id="name-value"> pide</span></div>
+                <div class="email">Email: <span id="email-value">asdfasdfas@gmail.com</span></div>
+                <div class="address">Address: <span id="address-value">asdfasdfsd</span></div>
+                <div class="phone">Phone: <span id="phone-value">1231231231231</span></div>
+                <div class="company">Company: <span id="company-value">hoasdfasdfme</span></div>
+                
             </div>
-      </div> -->
+      </div>
       </div>
        
     
@@ -58,15 +60,23 @@
 
             <div>
                 <label for="phone">phone</label>
-                <input class="form-control"  type="number" id="phone">
+                <input class="form-control"  type="text" id="phone">
             </div>
 
             <div>
                 <label for="company">company</label>
                 <input class="form-control"  type="text" id="company">
             </div>
-        
+     <div class="row">
+        <div class="col-6">
+               
         <button type="submit" class="btn btn-success text-light mt-3 d-flex  ">Add</button>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+        <button type="button" id="edit" class="btn btn-primary text-light mt-3 ">Edit</button>
+
+        </div>
+     </div>
         </form>
     </div>
     
