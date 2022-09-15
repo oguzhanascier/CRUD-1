@@ -116,7 +116,7 @@
             width: 500px;
             height: 500px;
             z-index: 300;
-            left: -1000px;
+            left: -1001px;
             transition: all .5s ease-out;
             color: azure;
             text-transform: capitalize;
