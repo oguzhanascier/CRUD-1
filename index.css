@@ -49,6 +49,25 @@
           
         }
 
+        .edit{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            bottom: -39px;
+            right: -39px;
+            width: 60px;
+            height: 60px;
+            border: 10px solid white;
+            background-color: rgb(15, 158, 65);
+            color: white;
+          
+            cursor: pointer;
+
+        }
+
        
 
     
@@ -79,6 +98,7 @@
             cursor: pointer;
             font-size: 55px;
             color: white;
+          
         }
 
     input{
